@@ -8,5 +8,10 @@ def inicio():
         "payload":"welcome to my project"
     }
 
+@app.route("/read")
+def read():
+    return {"payload":"read successfully"
+    }
+
 if __name__ == '__main__':
     app.run(debug=True)
