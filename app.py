@@ -13,14 +13,11 @@ def read():
     return {"payload":"read successfully"
     }
 
-if __name__ == '__main__':
-    app.run(debug=True)
-
-
 @app.route("/create", methods=["POST"])
 def create():
     return {"payload":"create successfully"
     }
-    
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     app.run(debug=True)
+
