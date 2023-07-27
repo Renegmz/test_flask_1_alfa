@@ -18,6 +18,11 @@ def create():
     return {"payload":"create successfully"
     }
 
+@app.route("/delete", methods=["DELETE"])
+def create():
+    return {"payload":"delete successfully"
+    }
+
 if __name__ == '__main__':
     app.run(debug=True)
 
